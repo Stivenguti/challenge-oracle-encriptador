@@ -1,0 +1,212 @@
+:root{
+    --background: linear-gradient(135deg, #3c55c77e 0%, #7936bd98 100%);
+    --background1: linear-gradient(135deg, #0dd4ee7e 0%, #20b12098 100%);
+    --color-primary:#667eea;
+    --color-secondary:#764ba2;
+}
+
+
+.container{
+    height: 624px;
+    width: 1362px;
+    background-image: var(--background), url(imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: sticky;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background:rgb(5, 5, 5);
+}
+
+.logo{
+    height: 64px;
+    width: 90px;
+    background: var(--background1);
+    position: absolute;
+    left: 31px;
+    border-radius: 36px;
+}
+
+.logoimg{
+    position: relative;
+    right: 24.42%;
+    bottom: 0%;
+    margin: 9px;
+}
+
+.titulo{
+    position: fixed;
+    margin-left: 233px;
+    top: 5px;
+}
+
+.izquierda{
+    position: absolute;
+    width: 600px;
+    height: 370px;
+    left: 170px;
+    top: 100px;
+    border-radius: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+
+    background: yellow;
+}
+
+.text-input{
+
+    position: absolute;
+    width: 565px;
+    height: 339px;
+    left: 15px;
+    top: 17px;
+    border-radius: 20px;
+
+    border: none;
+    outline: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+
+}
+
+#copiar{
+
+    position: absolute;
+    box-sizing: border-box;
+    width: 166px;
+    height: 43px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    top: 540px;
+    left: 126px;
+    display: none;
+
+}
+
+.derecha{
+    position: absolute;
+    width: 400px;
+    height: 590px;
+    left: 950px;
+    top: 20px;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+    background: var(--background1);
+}
+
+.imgdere{
+    position: absolute;
+    top: 19px;
+    left: 74px;
+    width: 264px;
+}
+
+#text{
+    position: absolute;
+    border-top: dotted;
+    top: 300px;
+    left: 33px;
+    width: 340px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+#text1{
+
+    position: absolute;
+    top: 367px;
+    left: 30px;
+    width: 342px;
+    height: 161px;
+    border: none;
+    outline: none;
+}
+
+
+.container-buttons{
+
+    position: absolute;
+    height: 90px;
+    width: 636px;
+    left: 179px;
+    top: 520px;
+    border-radius: 30px;
+    background: var(--color-primary);
+
+}
+
+#btn-encriptar{
+    
+    position: absolute;
+    width: 171px;
+    height: 56px;
+    top: 25px;
+    left: 152px;
+    padding: 18px;
+    background: #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#btn-desencriptar{
+
+    position: absolute;
+    width: 171px;
+    height: 56px;
+    top: 25px;
+    left: 369px;
+    padding: 18px;
+    background: #d8dfe8;
+    border-radius: 24px;
+}
+
+.exclamation{
+    position: absolute;
+    top: 4px;
+    left: 17px;
+}
+
+.leyenda{
+    position: absolute;
+    top: -9px;
+    left: 37px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+
+.info{
+    position: fixed;
+    top: 554px;
+    left: 6px;
+}
